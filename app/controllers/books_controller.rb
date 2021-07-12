@@ -40,8 +40,6 @@ class BooksController < ApplicationController
     book.destroy
     redirect_to books_path,notice: "Book was succesfully destroyed"
   end
-    
-    
   
   private
   def book_params
